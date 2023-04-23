@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body
+        {
+            background-image: url(formhosblue.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            opacity: 0.7;  
+        }
+        .formss
+        {
+            margin-top: 80px;
+            margin-left: 210px;
+            margin-right: 250px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            height: 610px;
+            width: 470px;
+            padding-left: 450px;
+            padding-top: 20px;
+            background-image: url(WhatsApp\ Image\ 2023-04-21\ at\ 1.17.50\ PM.jpeg);
+            background-repeat: no-repeat;   
+        }
+        .abtn
+        {
+           Color: #Fff;
+           Font-Size: 16px;
+           Text-Transform: Uppercase;
+           Letter-Spacing: 2px;
+           Padding: 16px 40px;
+           Border-Radius: 300px;
+           Display: Inline-Block;
+           Font-Weight: 500;
+           Transition: All 0.4s Ease-In-Out;
+           Background-Size: 152% 100%;
+           background: rgb(23, 143, 218);
+           Border: 2px Solid rgb(23, 143, 218);
+           text-decoration: none;
+           margin-left: 60px;
+        }
+        .abtn:hover 
+        {
+           Background: Transparent;
+           Border-Color: rgb(23, 143, 218);
+           Color: rgb(23, 143, 218);
+        }
+        hr
+       {
+           position: relative;
+           top: 10px;
+           border: none;
+           height: 8px;
+           background: white;
+           margin-bottom: 50px;
+       }
+    </style>
+    <script>
+        function sub()
+        {
+            alert("YOUR APPOINTMENT IS SUCCESSFULLY SUBMITED! TAKE CARE😷");
+        }
+    </script>
+</head>
+<body>
+    <div class="formss">
+        <h1>
+        <em><strong>APPOINTMENT FORM</strong></em>
+        </h1>
+        <p>If you would like to arrange for a consultation appointment with <strong>Dr. Varsha Patwal</strong>, 
+            please fill out this Appointment Form and we will get back to you as soon as possible.</p>
+        <hr>
+        <strong><marquee direction="left-right" style="color: rgb(2, 2, 49); font-size: large;">It's Not Great Coming To Us, But It Sure Feels Great 
+            When Leaving!🩺</marquee></strong><br><br>
+        <label for="appointment date">
+           <strong>Appointment Date:</strong> 
+        <input type="date"  name="Date" value="date" required style="width: 250px; border-radius: 5px;">
+        </label><br><br>
+        <label for="appointment time">
+            <strong>Appointment time:</strong>
+            <input type="time" name="atime" placeholder="HH:MM AM" required style="width: 250px; border-radius: 5px;">
+        </label><br><br>
+        <label for="name">
+            <strong>Name:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" name="aname" placeholder="First" required style="width: 100px; border-radius: 5px; " >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" name="bname" placeholder="Last" required style="width:100px; border-radius: 5px;">
+        </label><br><br>
+        <label for="appointment address">
+            <strong>Address:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="address" name="aadress" placeholder="Street Address" required style="width: 250px; border-radius: 5px;"><br><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="address" name="aadress" placeholder="Street Address Line 2" required style="width: 250px; border-radius: 5px;"><br><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" name="aname" placeholder="City" required style="width: 100px; border-radius: 5px; " >&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" name="bname" placeholder="Region" required style="width:100px; border-radius: 5px;">
+            <br><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" name="aname" placeholder="Postal/Zip Code" required style="width: 100px; border-radius: 5px; " >&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <select aria-placeholder="Country" name="country" required style="width:110px; border-radius: 5px;">
+                <option value="INDIA">India</option>
+                <option value="CANADA">Canada</option>
+            </select>
+        </label><br><br>
+        <label for="date">
+            <strong>Date of Birth:</strong>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="date" name="ad" required style="width:250px; border-radius: 5px;">
+        </label><br><br><br>
+        <a href="#" class="abtn" onclick="sub()">Send Appointment Form</a>
+    </div>
+    
+</body>
+</html>
